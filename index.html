@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="header">
+    <ul>
+      <li class="navbaritem"><a href="#about">About</a> </li>
+      <li class="navbaritem"><a href="#education"> Educational Qualification</a></li>
+      <li class="navbaritem"><a href="#projects">Projects</a> </li>
+      <li class="navbaritem"><a href="#skills">Skills</a> </li>
+      <li class="navbaritem"><a href="#contact">Contact</a> </li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <img src="images/boy.png" alt="" style="float: right;" width="300px" height="300px">
+    <div class="about" id="about">
+      <h1>Hi all, I'm Sanchit 👋</h1>
+      <p id="intro">A Final Year student pursuing Bachelor's of Technology major in Mechanical Engineering from YMCA University, skilled in Communication, Data Structure & Algorithms, Problem Solving, C++, and Web Development.</p>
+      <a href="#contact"><button>Contact Me</button></a>
+      <a href="https://drive.google.com/file/d/1-vMbgs_qkr6yDbOXHPRUACj2jyScFe7h/view" target="_blank"><button>See My Resume</button></a>
+    </div>
+
+    <div class="education" id="education">
+      <h2>Educational Qualification</h3>
+      <table>
+        <tr>
+          <td><img src="images/University_logo.png" alt="" class="educationlogo"></td>
+          <td class="schoolname"><span>J.C Bose University of Science and Technology, YMCA, Faridabad Bachelor of Technology Mechanical Engineering</span> </td>
+          <td><i>CGPA: 8.22</i> </td>
+        </tr>
+        <tr>
+          <td><img src="images/School_logo.png" alt="" class="educationlogo"></td>
+          <td class="schoolname"><span>S.R. Century Public School, Bahadurgarh <br> 12th | CBSE</span> </td>
+          <td><i>Percentage: 87.2</i> </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>RideWithMe</h3>
+        <div class="projectdetails">
+          <ul style="width: 850px">
+            <li>Designed and developed a Car Pooling Web Application using Node.js, Express.js and MongoDB</li>
+            <li>Implemented User Authentication using Passport.js library.</li>
+            <li>Implemented a functionality where users can Create, Search and Book Rides.</li>
+            <li>Used Bootstrap for developing responsive front-end.</li>
+          </ul>
+          <a href="https://ridewithmee.herokuapp.com/"><button>Live</button></a>
+          <a href="https://github.com/sanchit203/RideWithMe"><button>Code</button></a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/Amazoneclone.png" alt="" class="projectimage">
+        <h3>Amazon Clone</h3>
+        <div class="projectdetails">
+          <ul style="width: 850px">
+            <li>It will allow users to register, login, and to add and remove products from the shopping cart.</li>
+            <li>Implemented User Authentication using Firebase.</li>
+            <li>Used Context API for state management within the app.</li>
+          </ul>
+          <a href="https://clone-63ec3.web.app/"><button>Live</button></a>
+        </div> 
+      </div>
+
+      <div class="project">
+        <img src="images/Chathigh.png" alt="" class="projectimage">
+        <h3>Chat High</h3>
+        <div class="projectdetails">
+          <ul style="width: 850px">
+            <li>Designed and developed a web app where users can Create a room and Chat with other registered people.</li>
+            <li>Used Node.Js as back-end with Express.Js as a framework to receive all the API calls and to
+              maintain DB.</li>
+            <li>Implemented User Authentication via Google using Firebase.</li>
+          </ul>
+          <a href="https://chatapp-71aa1.web.app/"><button>Live</button></a>
+        </div> 
+      </div>
+    </div>
+
+    <div class="skills" id="skills">
+      <h2>Skills</h2>
+      <center>
+      <table>
+        <tr>
+          <td class = "skillcontent">Programming Languages:</td>
+          <td class = "skillcontent">C, C++, JavaScript</td>
+        </tr>
+        <tr>
+          <td class = "skillcontent">Libraries/Frameworks:</td>
+          <td class = "skillcontent">Bootstrap, Mongoose</td>
+        </tr>
+        <tr>
+          <td class = "skillcontent">Tools / Platforms:</td>
+          <td class = "skillcontent">NodeJs, Github, VS code</td>
+        </tr>
+        <tr>
+          <td class = "skillcontent">Databases:</td>
+          <td class = "skillcontent">MongoDB</td>
+        </tr>
+        <tr>
+          <td class = "skillcontent">Miscellaneous:</td>
+          <td class = "skillcontent">Data Structures, Algorithms, OOPS</td>
+        </tr>
+      </table>
+    </center>
+    </div>
+
+    <div class="Contact" id="contact">
+      <h2>Connect With Me</h2>
+      <center>
+      <a href="https://www.linkedin.com/in/sanchitmunjal/"><img src="images/linkedin.png" alt="" class="educationlogo"></a>
+      <a href="https://github.com/sanchit203"><img src="images/github.png" alt="" class="educationlogo"></a></center>
+    </div>
+  </div>
+</body>
+</html>
