@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <input type="text" id="first" placeholder="first number">
+  <input type="text" id="second" placeholder="second number">
+  <button class="operation">Add</button>
+  <button class="operation">Subtract</button>
+  <button class="operation">Multiply</button>
+  <button class="operation">Divide</button>
+</body>
+
+<script>
+  let btn = document.getElementsByClassName("operation");
+  for(let i =0 ; i< btn.length; i++)
+  {
+    btn[i].addEventListener("click", calculate);
+  }
+
+  function calculate()
+  {
+    let first = Number(document.getElementById("first").value);
+    let second = Number(document.getElementById("second").value);
+    let operation  = this.innerText;
+
+    if(operation === "Add")
+    {
+      alert(first + second);
+    }
+    else if(operation === "Subtract")
+    {
+      alert(first - second);
+    }
+    else if(operation ===  "Multiply")
+    {
+      alert(first * second);
+    }
+    else{
+      alert(first/second);
+    }
+  }
+</script>
+</html>
